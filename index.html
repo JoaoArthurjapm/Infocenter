@@ -29,11 +29,15 @@
                 <li><a href="#curiosidades">Curiosidades</a></li>
                 <li><a href="#beneficios">Benefícios</a></li>
             </ul>
-        </nav>       
+        </nav>  
     </header>
-
+    
     <main id="inicio">
-        <img src="./img/Favo+abelha.svg" alt="Abelha na comeia">
+        <h1>
+            Dia mundial da abelhas
+        </h1>
+        <h2> A espécie mais vital para o Planeta Terra</h2>   
+        <
     </main>
     
     <div class="wrapper">
@@ -87,15 +91,34 @@
             
         </div>
             <script>
-                function clickMenu(){
-                    if(itens.style.display == 'block'){
-                itens.style.display = 'none'
-           }
-           else {
-                itens.style.display = 'block'
-           }
+                class MobileNavBar{
+                    constructor(mobileMenu, navList, navLinks){
+                    this.mobileMenu = document.querySelector(mobileMenu);
+                    this.navList = document.querySelector(navList);
+                    this.navLinks = document.querySelecxtorAll(navLinks);
+                    this.activeClass;
+                }
 
-        }
+                addClickEvent(){
+                        this.mobileMenu.addEventListener("Click", this.handleClick);
+                    }
+
+                    Init(){
+                        if(mobileMenu){
+                            this.addClickEvent();
+                        }
+                        return this;
+                    }
+
+                }
+
+                const MobileNavBar = new MobileNavBar(
+                    ".mobile-menu",
+                    ".nav-list",
+                    ".navList li",
+                );
+
+        
     </script>
 </body>
 
