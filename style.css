@@ -53,6 +53,7 @@ main {
     background: url("img/bgca.svg") no-repeat center center ;
     background-size: cover;
     height: 70vh;
+    
 }
 
 .nav-list {
@@ -70,12 +71,14 @@ main h1 {
     position: relative;
     top: 24vh;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
 }
 main h2 {
-    margin-left: 60%;
+    margin-left: 50%;
     position: relative;
-    top: 24vh;
+    top: 40vh;
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 9px; 
-    
+    font-size: 18px;
+   
 }
