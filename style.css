@@ -52,7 +52,8 @@ nav {
 main {
     background: url("img/bgca.svg") no-repeat center center ;
     background-size: cover;
-    height: 70vh;
+    height: 87vh;
+    background-color: hsla(0, 0%, 89%, 0.285);
     
 }
 
@@ -76,9 +77,33 @@ main h1 {
 main h2 {
     margin-left: 50%;
     position: relative;
-    top: 40vh;
+    top: 40%;
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 9px; 
     font-size: 18px;
    
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 20%;
+    background-color: hsla(0, 0%, 89%, 0.285);
+    font-size: 22px;
+    
+}
+.wrapper h1{
+    text-align: center;
+    padding: 15px;
+}
+.wrapper p {
+    padding: 2% 0%;
+}
+
+main h4 {
+    position: relative;
+    top: 49vh;
+    left: 87vw;
+    font-size: 30px;
 }
